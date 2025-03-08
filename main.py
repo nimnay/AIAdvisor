@@ -1,6 +1,6 @@
 import utils
 
-from models import Student
+
 from utils import callAPI
 if __name__ == '__main__':
     print("Enter your name: ")
@@ -15,7 +15,7 @@ if __name__ == '__main__':
     current_courses = [course.strip() for course in current_input.split(',') if course.strip()] if current_input else []
 
     "print(Enter any time slot constraints (e.g., 3-4pm, or leave blank if none):)"
-    "time_constraints = input().strip() or "
+    "time_constraints = input().strip() or None "
 
     # Create student dictionary
     student = {
@@ -24,8 +24,7 @@ if __name__ == '__main__':
         "current_courses": current_courses,
     }
 
-    # Debugging: Print the student object before passing to API
-    print("\nDEBUG: Student Object Before API Call:\n", student)
+
 
     response = callAPI(student)
     print("\nResponse from API:\n", response)
