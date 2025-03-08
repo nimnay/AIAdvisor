@@ -113,6 +113,57 @@ data = {
             {"course": "CPSC 3520 - Programming Systems", "credits": 3, "semester": "First Semester - Senior Year", "prereq": ["CPSC 3720"]}
         ]
     },
+
+    #Grouping optional path classes together for simplicity
+    "major_related_paths": {
+        "major_related_paths": {
+            "course": "Computer Science Path Requirement",
+            "credits": 6,
+            "semester": "Second Semester - Junior and Senior Year",
+            "paths": [
+                {
+                "path_name": "Advanced Systems",
+                "courses ": [
+                    {"course": "CPSC 3220 - Introduction to Operating Systems", "credits": 3},
+                    {"course": "CPSC 3600 - Network Programming", "credits": 3}
+                    ]
+                },
+                {
+                "courses alternate": [
+                    {"course": "CPSC 4440 - Cloud Computing Architecture", "credits": 3},
+                    {"course": "CPSC 4720 - Software Devel Methodolgy", "credits": 3}
+                    ]
+                },
+                {
+                "path_name": "Intelligent Computing",
+                "courses ": [
+                    {"course": "CPSC 4030 - Introduction to Operating Systems", "credits": 3},
+                    {"course": "CPSC 4300 - Network Programming", "credits": 3}
+                    ]
+                },
+                {
+                "courses alternate": [
+                    {"course": "CPSC 4420 - Cloud Computing Architecture", "credits": 3},
+                    {"course": "CPSC 4430 - Software Devel Methodolgy", "credits": 3}
+                    ]
+                },
+                {
+                "path_name": "Interactive Systems",
+                "courses ": [
+                    {"course": "CPSC 3750 - Introduction to Operating Systems", "credits": 3},
+                    {"course": "CPSC 4110 - Network Programming", "credits": 3}
+                    ]
+                },
+                {
+                "courses alternate": [
+                    {"course": "CPSC 4140 - Cloud Computing Architecture", "credits": 3},
+                    {"course": "CPSC 4150 - Software Devel Methodolgy", "credits": 3}
+                    ]
+                },     
+            ]
+        },
+    
+
     "credits": {
         "total_credits": 122,
         "semester_credits": {
@@ -134,6 +185,7 @@ data = {
             }
         }
     }
+}
 }
 
 # Saving the data to a JSON file
