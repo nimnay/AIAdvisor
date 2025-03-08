@@ -79,6 +79,11 @@
                 "course": "MATH 1080 - Calculus of One Variable II",
                 "credits": 4,
                 "semester": "Second Semester - Freshman Year"
+            },
+            {
+                "course": "CPSC 1010 - Calculus of One Variable II",
+                "credits": 4,
+                "semester": "Second Semester - Freshman Year"
             }
         ],
         "sophomore_year": [

@@ -45,11 +45,58 @@ data = {
         ]
     },
     "major_related_classes": {
-        "first_year": [
-            {"course": "ENGL 1030 - Composition and Rhetoric", "credits": 3, "semester": "First Semester - Freshman Year"},
-            {"course": "MATH 1060 - Calculus of One Variable I", "credits": 4, "semester": "First Semester - Freshman Year"},
-            {"course": "MATH 1080 - Calculus of One Variable II", "credits": 4, "semester": "Second Semester - Freshman Year"}
-        ],
+        "major_related_classes": {
+            "first_year": [
+                {"course": "ENGL 1030 - Composition and Rhetoric", "credits": 3,
+                 "semester": "First Semester - Freshman Year"},
+                {"course": "MATH 1060 - Calculus of One Variable I", "credits": 4,
+                 "semester": "First Semester - Freshman Year"},
+                {"course": "MATH 1080 - Calculus of One Variable II", "credits": 4,
+                 "semester": "Second Semester - Freshman Year"},
+                {
+                    "course": "Introduction to Computing Requirement",
+                    "credits": 4,
+                    "semester": "First Semester - Freshman Year",
+                    "paths": [
+                        {
+                            "path_name": "CPSC 1010/1020",
+                            "courses": [
+                                {"course": "CPSC 1010 - Introduction to Computing I", "credits": 4},
+                                {"course": "CPSC 1020 - Introduction to Computing II", "credits": 4}
+                            ]
+                        },
+                        {
+                            "path_name": "CPSC 1060/1070",
+                            "courses": [
+                                {"course": "CPSC 1060 - Introduction to Programming", "credits": 4},
+                                {"course": "CPSC 1070 - Data Structures and Algorithms", "credits": 4}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "course": "Introduction to Computing Requirement",
+                    "credits": 4,
+                    "semester": "Second Semester - Freshman Year",
+                    "paths": [
+                        {
+                            "path_name": "CPSC 1010/1020",
+                            "courses": [
+                                {"course": "CPSC 1010 - Introduction to Computing I", "credits": 4},
+                                {"course": "CPSC 1020 - Introduction to Computing II", "credits": 4}
+                            ]
+                        },
+                        {
+                            "path_name": "CPSC 1060/1070",
+                            "courses": [
+                                {"course": "CPSC 1060 - Introduction to Programming", "credits": 4},
+                                {"course": "CPSC 1070 - Data Structures and Algorithms", "credits": 4}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
         "sophomore_year": [
             {"course": "CPSC 2070 - Discrete Structures for Computing", "credits": 3, "semester": "First Semester - Sophomore Year", "prereq": ["MATH 1060"]},
             {"course": "CPSC 2120 - Algorithms and Data Structures", "credits": 4, "semester": "First Semester - Sophomore Year", "prereq": ["CPSC 2070"]},
@@ -90,7 +137,7 @@ data = {
 }
 
 # Saving the data to a JSON file
-with open('course_structure.json', 'w') as json_file:
+with open('course_structure1.json', 'w') as json_file:
     json.dump(data, json_file, indent=4)
 
 print("JSON file 'course_structure.json' has been created!")
