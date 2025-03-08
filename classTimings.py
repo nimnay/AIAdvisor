@@ -44,7 +44,7 @@ classes_structure = {
                     "path_name": "CH 1010/1020",
                     "courses": [
                         {"course": "CH 1010 - General Chemistry", "credits": 4},
-                        {"course": "CH 1011 - General Chemistry", "credits": 0}
+                        {"course": "CH 1011 - General Chemistry Lab", "credits": 0}
                     ]
                 },
                 {
@@ -77,81 +77,7 @@ classes_structure = {
             ]
         }
     },
-    "major_related_classes": {
-        "major_related_classes": {
-            "first_year": [
-                {"course": "ENGL 1030 - Composition and Rhetoric", "credits": 3, "semester": "First Semester - Freshman Year"},
-                {"course": "MATH 1060 - Calculus of One Variable I", "credits": 4, "semester": "First Semester - Freshman Year"},
-                {"course": "MATH 1080 - Calculus of One Variable II", "credits": 4, "semester": "Second Semester - Freshman Year"},
-                {
-                    "course": "Introduction to Computing Requirement",
-                    "credits": 4,
-                    "semester": "First Semester - Freshman Year",
-                    "paths": [
-                        {
-                            "path_name": "CPSC 1010/1020",
-                            "courses": [
-                                {"course": "CPSC 1010 - Introduction to Computing I", "credits": 4},
-                                {"course": "CPSC 1020 - Introduction to Computing II", "credits": 4}
-                            ]
-                        },
-                        {
-                            "path_name": "CPSC 1060/1070",
-                            "courses": [
-                                {"course": "CPSC 1060 - Introduction to Programming", "credits": 4},
-                                {"course": "CPSC 1070 - Data Structures and Algorithms", "credits": 4}
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "sophomore_year": [
-                {"course": "CPSC 2070 - Discrete Structures for Computing", "credits": 3, "semester": "First Semester - Sophomore Year", "prereq": ["MATH 1060"]},
-                {"course": "CPSC 2120 - Algorithms and Data Structures", "credits": 4, "semester": "First Semester - Sophomore Year", "prereq": ["CPSC 2070"]},
-                {"course": "CPSC 2150 - Software Development Foundations", "credits": 3, "semester": "Second Semester - Sophomore Year", "prereq": ["CPSC 2120"]},
-                {"course": "CPSC 2310 - Introduction to Computer Organization", "credits": 4, "semester": "Second Semester - Sophomore Year", "prereq": ["CPSC 2120"]}
-            ],
-            "junior_year": [
-                {"course": "CPSC 3720 - Introduction to Software Engineering", "credits": 3, "semester": "First Semester - Junior Year", "prereq": ["CPSC 2120"]},
-                {"course": "CPSC 3220 - Advanced Systems", "credits": 3, "semester": "First Semester - Junior Year", "prereq": ["CPSC 2120"]},
-                {"course": "CPSC 4030 - Data Science and Artificial Intelligence", "credits": 3, "semester": "Second Semester - Junior Year", "prereq": ["CPSC 2120"]}
-            ],
-            "senior_year": [
-                {"course": "CPSC 4910 - Senior Computing Practicum", "credits": 3, "semester": "Second Semester - Senior Year", "prereq": ["CPSC 3720"]},
-                {"course": "CPSC 3520 - Programming Systems", "credits": 3, "semester": "First Semester - Senior Year", "prereq": ["CPSC 3720"]}
-            ]
-        }
-    },
-    "major_related_paths": {
-        "major_related_paths": {
-            "course": "Computer Science Path Requirement",
-            "credits": 6,
-            "semester": "Second Semester - Junior and Senior Year",
-            "paths": [
-                {
-                    "path_name": "Advanced Systems",
-                    "courses": [
-                        {"course": "CPSC 3220 - Introduction to Operating Systems", "credits": 3},
-                        {"course": "CPSC 3600 - Network Programming", "credits": 3}
-                    ]
-                },
-                {
-                    "path_name": "Intelligent Computing",
-                    "courses": [
-                        {"course": "CPSC 4030 - Introduction to Operating Systems", "credits": 3},
-                        {"course": "CPSC 4300 - Network Programming", "credits": 3}
-                    ]
-                },
-                {
-                    "path_name": "Interactive Systems",
-                    "courses": [
-                        {"course": "CPSC 3750 - Introduction to Operating Systems", "credits": 3},
-                        {"course": "CPSC 4110 - Network Programming", "credits": 3}
-                    ]
-                }
-            ]
-        }
-    }
+    # More categories like "major_related_classes" can be added here...
 }
 
 # Function to generate schedules
@@ -166,19 +92,6 @@ def generate_schedule(classes_structure, mwf_slots, tth_slots):
                             add_schedule(sub_course, data, mwf_slots, tth_slots)
                     else:
                         add_schedule(course, data, mwf_slots, tth_slots)
-        elif "major_related_classes" in details:
-            for year, courses in details["major_related_classes"].items():
-                for course in courses:
-                    if "paths" in course:  # For paths (e.g., Introduction to Computing Requirement)
-                        for path in course["paths"]:
-                            for sub_course in path["courses"]:
-                                add_schedule(sub_course, data, mwf_slots, tth_slots)
-                    else:
-                        add_schedule(course, data, mwf_slots, tth_slots)
-        elif "major_related_paths" in details:
-            for path in details["major_related_paths"]["paths"]:
-                for sub_course in path["courses"]:
-                    add_schedule(sub_course, data, mwf_slots, tth_slots)
     return data
 
 # Helper function to add schedules
