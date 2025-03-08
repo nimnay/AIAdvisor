@@ -9,16 +9,17 @@ class Student:
     :param time_constraints: Time the student does not want class
     """
 
-    def __init__(self, name: str, grade: str, time_constraints: str):
+    def __init__(self, name: str,  classes_taken: str, time_constraints: str):
         self.name = name
-        self.grade = grade
+        # Convert the input string into a list of classes
+        self.classes_taken = classes_taken.split(", ")  # Assumes input is comma-separated
         self.time_constraints = time_constraints
 
-    def get_grade(self):
-        return self.grade
+    def get_classes_taken(self):
+        return self.classes_taken
 
     def get_time_constraints(self):
         return self.time_constraints
 
     def __str__(self):
-        return f"Student: {self.name}, Grade: {self.grade}, Time Constraints: {self.time_constraints}"
+        return f"Student: {self.name}, Grade: {self.classes_taken}, Time Constraints: {self.time_constraints}"

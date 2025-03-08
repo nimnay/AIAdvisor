@@ -10,6 +10,6 @@ if __name__ == '__main__':
     classes = input()
     print("Enter any time slot constraints: e.g. 3-4pm")
     time_constraints = input()
-    student = Student(name, grade, time_constraints)
+    student = Student(name, classes, time_constraints)
 
     response = callAPI()
