@@ -12,5 +12,4 @@ if __name__ == '__main__':
     time_constraints = input()
     student = Student(name, grade, time_constraints)
 
-    response = callAPI(student)
-    print(response)
+    response = callAPI()
