@@ -1,5 +1,5 @@
-import pandas as pd
-import numpy as np
+import json
+import random
 
 # Define the time slots
 mwf_slots = [
@@ -13,8 +13,8 @@ tth_slots = [
     "12:00 PM - 1:15 PM", "1:30 PM - 2:45 PM"
 ]
 
-# Define the classes and their structure
-classes_structure = {
+# Input data
+input_data = {
     "general_education_classes": {
         "class_options": {
             "arts_and_humanities_non_lit": [
@@ -44,7 +44,7 @@ classes_structure = {
                     "path_name": "CH 1010/1020",
                     "courses": [
                         {"course": "CH 1010 - General Chemistry", "credits": 4},
-                        {"course": "CH 1011 - General Chemistry Lab", "credits": 0}
+                        {"course": "CH 1011 - General Chemistry", "credits": 0}
                     ]
                 },
                 {
@@ -77,53 +77,138 @@ classes_structure = {
             ]
         }
     },
-    # More categories like "major_related_classes" can be added here...
+    "major_related_classes": {
+        "major_related_classes": {
+            "first_year": [
+                {"course": "ENGL 1030 - Composition and Rhetoric", "credits": 3, "semester": "First Semester - Freshman Year"},
+                {"course": "MATH 1060 - Calculus of One Variable I", "credits": 4, "semester": "First Semester - Freshman Year"},
+                {"course": "MATH 1080 - Calculus of One Variable II", "credits": 4, "semester": "Second Semester - Freshman Year"},
+                {
+                    "course": "Introduction to Computing Requirement",
+                    "credits": 4,
+                    "semester": "First Semester - Freshman Year",
+                    "paths": [
+                        {
+                            "path_name": "CPSC 1010/1020",
+                            "courses": [
+                                {"course": "CPSC 1010 - Introduction to Computing I", "credits": 4},
+                                {"course": "CPSC 1020 - Introduction to Computing II", "credits": 4}
+                            ]
+                        },
+                        {
+                            "path_name": "CPSC 1060/1070",
+                            "courses": [
+                                {"course": "CPSC 1060 - Introduction to Programming", "credits": 4},
+                                {"course": "CPSC 1070 - Data Structures and Algorithms", "credits": 4}
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "sophomore_year": [
+                {"course": "CPSC 2070 - Discrete Structures for Computing", "credits": 3, "semester": "First Semester - Sophomore Year", "prereq": ["MATH 1060"]},
+                {"course": "CPSC 2120 - Algorithms and Data Structures", "credits": 4, "semester": "First Semester - Sophomore Year", "prereq": ["CPSC 2070"]},
+                {"course": "CPSC 2150 - Software Development Foundations", "credits": 3, "semester": "Second Semester - Sophomore Year", "prereq": ["CPSC 2120"]},
+                {"course": "CPSC 2310 - Introduction to Computer Organization", "credits": 4, "semester": "Second Semester - Sophomore Year", "prereq": ["CPSC 2120"]}
+            ],
+            "junior_year": [
+                {"course": "CPSC 3720 - Introduction to Software Engineering", "credits": 3, "semester": "First Semester - Junior Year", "prereq": ["CPSC 2120"]},
+                {"course": "CPSC 3220 - Advanced Systems", "credits": 3, "semester": "First Semester - Junior Year", "prereq": ["CPSC 2120"]},
+                {"course": "CPSC 4030 - Data Science and Artificial Intelligence", "credits": 3, "semester": "Second Semester - Junior Year", "prereq": ["CPSC 2120"]}
+            ],
+            "senior_year": [
+                {"course": "CPSC 4910 - Senior Computing Practicum", "credits": 3, "semester": "Second Semester - Senior Year", "prereq": ["CPSC 3720"]},
+                {"course": "CPSC 3520 - Programming Systems", "credits": 3, "semester": "First Semester - Senior Year", "prereq": ["CPSC 3720"]}
+            ]
+        }
+    },
+    "major_related_paths": {
+        "major_related_paths": {
+            "course": "Computer Science Path Requirement",
+            "credits": 6,
+            "semester": "Second Semester - Junior and Senior Year",
+            "paths": [
+                {
+                    "path_name": "Advanced Systems",
+                    "courses": [
+                        {"course": "CPSC 3220 - Introduction to Operating Systems", "credits": 3},
+                        {"course": "CPSC 3600 - Network Programming", "credits": 3}
+                    ]
+                },
+                {
+                    "path_name": "Intelligent Computing",
+                    "courses": [
+                        {"course": "CPSC 4030 - Introduction to Operating Systems", "credits": 3},
+                        {"course": "CPSC 4300 - Network Programming", "credits": 3}
+                    ]
+                },
+                {
+                    "path_name": "Interactive Systems",
+                    "courses": [
+                        {"course": "CPSC 3750 - Introduction to Operating Systems", "credits": 3},
+                        {"course": "CPSC 4110 - Network Programming", "credits": 3}
+                    ]
+                }
+            ]
+        }
+    }
 }
 
 # Function to generate schedules
-def generate_schedule(classes_structure, mwf_slots, tth_slots):
-    data = []
-    for category, details in classes_structure.items():
+def generate_schedule(data, mwf_slots, tth_slots):
+    schedule = []
+    for category, details in data.items():
         if "class_options" in details:
             for subcategory, courses in details["class_options"].items():
                 for course in courses:
                     if "courses" in course:  # For nested courses (e.g., natural_science_with_lab)
                         for sub_course in course["courses"]:
-                            add_schedule(sub_course, data, mwf_slots, tth_slots)
+                            add_schedule(sub_course, schedule, mwf_slots, tth_slots)
                     else:
-                        add_schedule(course, data, mwf_slots, tth_slots)
-    return data
+                        add_schedule(course, schedule, mwf_slots, tth_slots)
+        elif "major_related_classes" in details:
+            for year, courses in details["major_related_classes"].items():
+                for course in courses:
+                    if "paths" in course:  # For paths (e.g., Introduction to Computing Requirement)
+                        for path in course["paths"]:
+                            for sub_course in path["courses"]:
+                                add_schedule(sub_course, schedule, mwf_slots, tth_slots)
+                    else:
+                        add_schedule(course, schedule, mwf_slots, tth_slots)
+        elif "major_related_paths" in details:
+            for path in details["major_related_paths"]["paths"]:
+                for sub_course in path["courses"]:
+                    add_schedule(sub_course, schedule, mwf_slots, tth_slots)
+    return schedule
 
 # Helper function to add schedules
-def add_schedule(course, data, mwf_slots, tth_slots):
+def add_schedule(course, schedule, mwf_slots, tth_slots):
     course_name = course["course"]
-    # Assign random MWF slots (up to 2 sections)
-    for _ in range(np.random.randint(1, 3)):  # Max 2 sections
-        for day in ["Monday", "Wednesday", "Friday"]:
-            slot = np.random.choice(mwf_slots)
-            data.append({
-                "Course": course_name,
-                "Day": day,
-                "Time Slot": slot
-            })
-    # Assign random TTh slots (up to 2 sections)
-    for _ in range(np.random.randint(1, 3)):  # Max 2 sections
-        for day in ["Tuesday", "Thursday"]:
-            slot = np.random.choice(tth_slots)
-            data.append({
-                "Course": course_name,
-                "Day": day,
-                "Time Slot": slot
-            })
+    sections = []
+    # Generate up to 2 sections
+    for section_id in range(1, random.randint(2, 3)):  # 1 or 2 sections
+        # Randomly choose between MWF and TTh
+        if random.choice([True, False]):  # 50% chance for MWF or TTh
+            time_slot = random.choice(mwf_slots)
+            day_type = "MWF"
+        else:
+            time_slot = random.choice(tth_slots)
+            day_type = "TTh"
+        sections.append({
+            "section_id": section_id,
+            "day_type": day_type,
+            "time_slot": time_slot
+        })
+    schedule.append({
+        "course": course_name,
+        "sections": sections
+    })
 
 # Generate the schedule
-data = generate_schedule(classes_structure, mwf_slots, tth_slots)
+schedule = generate_schedule(input_data, mwf_slots, tth_slots)
 
-# Create a DataFrame
-df = pd.DataFrame(data)
+# Save to JSON file
+with open("class_schedule.json", "w") as f:
+    json.dump({"classes": schedule}, f, indent=4)
 
-# Save to CSV (optional)
-df.to_csv("class_schedule.csv", index=False)
-
-# Display the dataset
-print(df.head(20))
+print("JSON file 'class_schedule.json' has been created.")
