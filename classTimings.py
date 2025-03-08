@@ -185,8 +185,8 @@ def generate_schedule(data, mwf_slots, tth_slots):
 def add_schedule(course, schedule, mwf_slots, tth_slots):
     course_name = course["course"]
     sections = []
-    # Generate up to 2 sections
-    for section_id in range(1, random.randint(2, 3)):  # 1 or 2 sections
+    # Generate exactly 3 sections
+    for section_id in range(1, 4):  # 3 sections
         # Randomly choose between MWF and TTh
         if random.choice([True, False]):  # 50% chance for MWF or TTh
             time_slot = random.choice(mwf_slots)
