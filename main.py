@@ -26,3 +26,5 @@ if __name__ == '__main__':
 
     response = callAPI(student)
     'response = callAPI()'
+
+    print(response)

@@ -24,7 +24,7 @@ def callAPI(student):
                   )
 
     response = retrieveAndGenerate(input_text, kb_id)
-    createList(response)
+    "createList(response)"
 
     if response:
         return response
