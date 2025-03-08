@@ -7,13 +7,13 @@ def callAPI(student):
     # Extract courses from the student object
     completed_courses = "\n".join([f"- {course}" for course in student.get("completed_courses", [])])
     current_courses = "\n".join([f"- {course}" for course in student.get("current_courses", [])])
-    time_constraints = student.get("time_constraints", "None")  # Default to "None" if empty
+    'time_constraints = student.get("time_constraints", "None")  # Default to "None" if empty'
+
 
     input_text = (f"I am currently planning my class schedule for the next semester. Here is a list of courses I have "
                   f"already completed or am currently enrolled in. Use this to determine which courses I am eligible to take:\n\n"
                   f"**Completed Courses:**\n{completed_courses if completed_courses else 'None'}\n\n"
                   f"**Currently Enrolled Courses:**\n{current_courses if current_courses else 'None'}\n\n"
-                  f"**Time Constraints:**\n{time_constraints}\n\n"
                   f"**Class Offerings for the Next Semester:** [Provide the list of available courses in JSON format]\n\n"
                   f"**Task:** Based on the courses I have already completed and the available class offerings for the next semester, "
                   f"create a class schedule for me. Please make sure to:\n"
