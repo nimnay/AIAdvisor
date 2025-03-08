@@ -75,7 +75,7 @@ def retrieveAndGenerate(input_text, kb_id):
 def createList(response):
     client = boto3.client("bedrock-runtime", region_name="us-west-2")
     model_id = "arn:aws:bedrock:us-west-2:363793501045:inference-profile/us.meta.llama3-2-1b-instruct-v1:0"
-    prompt = f"Create a list from this data providing the class numbers class times with each class's data on a separate line: {response}"
+    prompt = f"Create a list from this data providing the class numbers and class times with each class's data on a separate line: {response}"
     formatted_prompt = f"""
     <|begin_of_text|><|start_header_id|>user<|end_header_id|>
     {prompt}
