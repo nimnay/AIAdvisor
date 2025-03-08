@@ -334,19 +334,21 @@
                 ]
             },
             {
-                "course": "CPSC 3220 - Advanced Systems",
+                "course": "Advanced Systems",
                 "credits": 3,
                 "semester": "First Semester - Junior Year",
                 "prereq": [
-                    "CPSC 2120"
+                    "CPSC 2120",
+                    "CPSC 2150"
                 ]
             },
             {
-                "course": "CPSC 4030 - Data Science and Artificial Intelligence",
+                "course": "Data Science and Artificial Intelligence",
                 "credits": 3,
                 "semester": "Second Semester - Junior Year",
                 "prereq": [
-                    "CPSC 2120"
+                    "CPSC 2120",
+                    "CPSC 2150"
                 ]
             }
         ],
@@ -370,88 +372,105 @@
         ]
     },
     "major_related_paths": {
-        "major_related_paths": {
-            "course": "Computer Science Path Requirement",
-            "credits": 6,
-            "semester": "Second Semester - Junior and Senior Year",
-            "paths": [
+       "major_related_paths": {
+    "course": "Computer Science Path Requirement",
+    "credits": 6,
+    "semester": "Second Semester - Junior and Senior Year",
+    "paths": [
+        {
+            "path_name": "Advanced Systems",
+            "courses": [
                 {
-                    "path_name": "Advanced Systems",
-                    "courses ": [
-                        {
-                            "course": "CPSC 3220 - Introduction to Operating Systems",
-                            "credits": 3
-                        },
-                        {
-                            "course": "CPSC 3600 - Network Programming",
-                            "credits": 3
-                        }
-                    ]
+                    "course": "CPSC 3220 - Introduction to Operating Systems",
+                    "credits": 3,
+                    "semester": "First Semester - Junior Year"
                 },
                 {
-                    "courses alternate": [
-                        {
-                            "course": "CPSC 4440 - Cloud Computing Architecture",
-                            "credits": 3
-                        },
-                        {
-                            "course": "CPSC 4720 - Software Devel Methodolgy",
-                            "credits": 3
-                        }
-                    ]
-                },
-                {
-                    "path_name": "Intelligent Computing",
-                    "courses ": [
-                        {
-                            "course": "CPSC 4030 - Introduction to Operating Systems",
-                            "credits": 3
-                        },
-                        {
-                            "course": "CPSC 4300 - Network Programming",
-                            "credits": 3
-                        }
-                    ]
-                },
-                {
-                    "courses alternate": [
-                        {
-                            "course": "CPSC 4420 - Cloud Computing Architecture",
-                            "credits": 3
-                        },
-                        {
-                            "course": "CPSC 4430 - Software Devel Methodolgy",
-                            "credits": 3
-                        }
-                    ]
-                },
-                {
-                    "path_name": "Interactive Systems",
-                    "courses ": [
-                        {
-                            "course": "CPSC 3750 - Introduction to Operating Systems",
-                            "credits": 3
-                        },
-                        {
-                            "course": "CPSC 4110 - Network Programming",
-                            "credits": 3
-                        }
-                    ]
-                },
-                {
-                    "courses alternate": [
-                        {
-                            "course": "CPSC 4140 - Cloud Computing Architecture",
-                            "credits": 3
-                        },
-                        {
-                            "course": "CPSC 4150 - Software Devel Methodolgy",
-                            "credits": 3
-                        }
-                    ]
+                    "course": "CPSC 3600 - Network Programming",
+                    "credits": 3,
+                    "semester": "Second Semester - Junior Year"
                 }
             ]
         },
+        {
+            "path_name": "Advanced Systems (Alternate)",
+            "courses": [
+                {
+                    "course": "CPSC 4440 - Cloud Computing Architecture",
+                    "credits": 3,
+                    "semester": "First Semester - Junior Year"
+                },
+                {
+                    "course": "CPSC 4720 - Software Development Methodology",
+                    "credits": 3,
+                    "semester": "Second Semester - Junior Year"
+                }
+            ]
+        },
+        {
+            "path_name": "Intelligent Computing",
+            "courses": [
+                {
+                    "course": "CPSC 4030 - Introduction to AI",
+                    "credits": 3,
+                    "semester": "First Semester - Junior Year"
+                },
+                {
+                    "course": "CPSC 4300 - Machine Learning",
+                    "credits": 3,
+                    "semester": "Second Semester - Junior Year"
+                }
+            ]
+        },
+        {
+            "path_name": "Intelligent Computing (Alternate)",
+            "courses": [
+                {
+                    "course": "CPSC 4420 - Deep Learning",
+                    "credits": 3,
+                    "semester": "First Semester - Senior Year"
+                },
+                {
+                    "course": "CPSC 4430 - Reinforcement Learning",
+                    "credits": 3,
+                    "semester": "Second Semester - Senior Year"
+                }
+            ]
+        },
+        {
+            "path_name": "Interactive Systems",
+            "courses": [
+                {
+                    "course": "CPSC 3750 - User Interface Design",
+                    "credits": 3,
+                    "semester": "First Semester - Junior Year"
+                },
+                {
+                    "course": "CPSC 4110 - Game Development",
+                    "credits": 3,
+                    "semester": "Second Semester - Junior Year"
+                }
+            ]
+        },
+        {
+            "path_name": "Interactive Systems (Alternate)",
+            "courses": [
+                {
+                    "course": "CPSC 4140 - Virtual Reality",
+                    "credits": 3,
+                    "semester": "First Semester - Senior Year"
+                },
+                {
+                    "course": "CPSC 4150 - Augmented Reality",
+                    "credits": 3,
+                    "semester": "Second Semester - Senior Year"
+                }
+            ]
+        }
+    ]
+}
+
+    },
         "credits": {
             "total_credits": 122,
             "semester_credits": {
