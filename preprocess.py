@@ -44,6 +44,67 @@ data = {
             {"course": "Writing Requirement", "credits": 3, "semester": "First Semester - Senior Year"}
         ]
     },
+
+    "general_education_classes": {
+        "class_options": {
+            "arts_and_humanities_non_lit": [
+                {"course": "MUSC 2100 - Music in the Western World", "credits": 3},
+                {"course": "THEA 2100 - Theatre Appreciation", "credits": 3},
+                {"course": "ARTS 2100 - Art Appreciation", "credits": 3}
+            ],
+            "arts_and_humanities_lit": [
+                {"course": "ENGL 2120 - World Literature", "credits": 3},
+                {"course": "ENGL 2130 - British Literature", "credits": 3},
+                {"course": "ENGL 2140 - American Literature", "credits": 3}
+            ],
+            "oral_communication_requirement": [
+                {"course": "COMM 1500 - Introduction to Human Communication", "credits": 3},
+                {"course": "COMM 2500 - Public Speaking", "credits": 3},
+                {"course": "ENGL 1030 - Composition and Rhetoric", "credits": 3}
+
+            ],
+            "natural_science_with_lab": [
+                {
+                    "path_name": "BIOL 1030/1050",
+                    "courses": [
+                        {"course": "BIOL 1030 - General Biology I", "credits": 3},
+                        {"course": "BIOL 1050 - General Biology Lab ", "credits": 1}
+                    ],
+                    "path_name": "CH 1010/1020",
+                        "courses": [
+                            {"course": "CH 1010 - General Chemistry", "credits": 4},
+                            {"course": "CH 1011 - General Chemistry", "credits": 0}
+                     ],
+                     "path_name": "PHYS 1220/1240",
+                        "courses": [
+                            {"course": "PHYS 1220 Physics with Calculus I", "credits": 3},
+                            {"course": "PHYS 1240 Physics Laboratory I", "credits": 1}
+                     ]          
+                }
+            ],
+            "social_sciences": [
+                {"course": "ANTH 2010 - Introduction to Anthropology", "credits": 3},
+                {"course": "GEOG 1010 - Introduction to Geography", "credits": 3},
+                {"course": "POSC 1010 - Americal National Government", "credits": 3}
+            ],
+            "global_challenges": [
+                {"course": "ENGL 2120 - World Literature", "credits": 3},
+                {"course": "ENGL 2130 - British Literature", "credits": 3},
+                {"course": "ENGL 2140 - American Literature", "credits": 3}
+            ],
+            "cross_cultural_awareness": [
+                {"course": "MUSC 3140 - World Music", "credits": 3}
+            ],
+            "science_and_technology_in_society": [
+                {"course": "ENGR 2210 - Technology, Culture and Design", "credits": 3}
+            ],
+            "mathematics": [
+                {"course": "MATH 1060 - Calculus of One Variable I", "credits": 4},
+                {"course": "MATH 1080 - Calculus of One Variable II", "credits": 4},
+            ],
+        }
+    },
+
     "major_related_classes": {
         "major_related_classes": {
             "first_year": [
