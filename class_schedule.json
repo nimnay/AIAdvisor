@@ -1,0 +1,589 @@
+{
+    "classes": [
+        {
+            "course": "MUSC 2100 - Music in the Western World",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "12:00 PM - 1:15 PM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "1:25 PM - 2:15 PM"
+                }
+            ]
+        },
+        {
+            "course": "THEA 2100 - Theatre Appreciation",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "8:00 AM - 9:15 AM"
+                }
+            ]
+        },
+        {
+            "course": "ARTS 2100 - Art Appreciation",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "12:20 PM - 1:10 PM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "11:15 AM - 12:05 PM"
+                }
+            ]
+        },
+        {
+            "course": "ENGL 2120 - World Literature",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "10:30 AM - 11:45 AM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "TTh",
+                    "time_slot": "1:30 PM - 2:45 PM"
+                }
+            ]
+        },
+        {
+            "course": "ENGL 2130 - British Literature",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "10:30 AM - 11:45 AM"
+                }
+            ]
+        },
+        {
+            "course": "ENGL 2140 - American Literature",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "10:30 AM - 11:45 AM"
+                }
+            ]
+        },
+        {
+            "course": "COMM 1500 - Introduction to Human Communication",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "10:30 AM - 11:45 AM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "4:40 PM - 5:30 PM"
+                }
+            ]
+        },
+        {
+            "course": "COMM 2500 - Public Speaking",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "8:00 AM - 9:15 AM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "TTh",
+                    "time_slot": "10:30 AM - 11:45 AM"
+                }
+            ]
+        },
+        {
+            "course": "ENGL 1030 - Composition and Rhetoric",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "12:00 PM - 1:15 PM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "TTh",
+                    "time_slot": "12:00 PM - 1:15 PM"
+                }
+            ]
+        },
+        {
+            "course": "BIOL 1030 - General Biology I",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "1:30 PM - 2:45 PM"
+                }
+            ]
+        },
+        {
+            "course": "BIOL 1050 - General Biology Lab",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "1:30 PM - 2:45 PM"
+                }
+            ]
+        },
+        {
+            "course": "CH 1010 - General Chemistry",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "8:00 AM - 9:15 AM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "1:25 PM - 2:15 PM"
+                }
+            ]
+        },
+        {
+            "course": "CH 1011 - General Chemistry",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "12:00 PM - 1:15 PM"
+                }
+            ]
+        },
+        {
+            "course": "PHYS 1220 - Physics with Calculus I",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "9:05 AM - 9:55 AM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "3:35 PM - 4:25 PM"
+                }
+            ]
+        },
+        {
+            "course": "PHYS 1240 - Physics Laboratory I",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "10:30 AM - 11:45 AM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "TTh",
+                    "time_slot": "10:30 AM - 11:45 AM"
+                }
+            ]
+        },
+        {
+            "course": "ANTH 2010 - Introduction to Anthropology",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "1:30 PM - 2:45 PM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "1:25 PM - 2:15 PM"
+                }
+            ]
+        },
+        {
+            "course": "GEOG 1010 - Introduction to Geography",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "11:15 AM - 12:05 PM"
+                }
+            ]
+        },
+        {
+            "course": "POSC 1010 - American National Government",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "12:00 PM - 1:15 PM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "9:05 AM - 9:55 AM"
+                }
+            ]
+        },
+        {
+            "course": "ENGL 2120 - World Literature",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "12:00 PM - 1:15 PM"
+                }
+            ]
+        },
+        {
+            "course": "ENGL 2130 - British Literature",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "10:30 AM - 11:45 AM"
+                }
+            ]
+        },
+        {
+            "course": "ENGL 2140 - American Literature",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "12:00 PM - 1:15 PM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "4:40 PM - 5:30 PM"
+                }
+            ]
+        },
+        {
+            "course": "MUSC 3140 - World Music",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "1:25 PM - 2:15 PM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "2:30 PM - 3:20 PM"
+                }
+            ]
+        },
+        {
+            "course": "ENGR 2210 - Technology, Culture and Design",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "11:15 AM - 12:05 PM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "TTh",
+                    "time_slot": "1:30 PM - 2:45 PM"
+                }
+            ]
+        },
+        {
+            "course": "MATH 1060 - Calculus of One Variable I",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "2:30 PM - 3:20 PM"
+                }
+            ]
+        },
+        {
+            "course": "MATH 1080 - Calculus of One Variable II",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "4:40 PM - 5:30 PM"
+                }
+            ]
+        },
+        {
+            "course": "ENGL 1030 - Composition and Rhetoric",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "8:00 AM - 9:15 AM"
+                }
+            ]
+        },
+        {
+            "course": "MATH 1060 - Calculus of One Variable I",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "10:30 AM - 11:45 AM"
+                }
+            ]
+        },
+        {
+            "course": "MATH 1080 - Calculus of One Variable II",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "2:30 PM - 3:20 PM"
+                }
+            ]
+        },
+        {
+            "course": "CPSC 1010 - Introduction to Computing I",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "12:20 PM - 1:10 PM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "9:05 AM - 9:55 AM"
+                }
+            ]
+        },
+        {
+            "course": "CPSC 1020 - Introduction to Computing II",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "4:40 PM - 5:30 PM"
+                }
+            ]
+        },
+        {
+            "course": "CPSC 1060 - Introduction to Programming",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "10:30 AM - 11:45 AM"
+                }
+            ]
+        },
+        {
+            "course": "CPSC 1070 - Data Structures and Algorithms",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "8:00 AM - 8:50 AM"
+                }
+            ]
+        },
+        {
+            "course": "CPSC 2070 - Discrete Structures for Computing",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "10:10 AM - 11:00 AM"
+                }
+            ]
+        },
+        {
+            "course": "CPSC 2120 - Algorithms and Data Structures",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "2:30 PM - 3:20 PM"
+                }
+            ]
+        },
+        {
+            "course": "CPSC 2150 - Software Development Foundations",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "4:40 PM - 5:30 PM"
+                }
+            ]
+        },
+        {
+            "course": "CPSC 2310 - Introduction to Computer Organization",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "2:30 PM - 3:20 PM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "2:30 PM - 3:20 PM"
+                }
+            ]
+        },
+        {
+            "course": "CPSC 3720 - Introduction to Software Engineering",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "8:00 AM - 9:15 AM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "TTh",
+                    "time_slot": "10:30 AM - 11:45 AM"
+                }
+            ]
+        },
+        {
+            "course": "CPSC 3220 - Advanced Systems",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "2:30 PM - 3:20 PM"
+                }
+            ]
+        },
+        {
+            "course": "CPSC 4030 - Data Science and Artificial Intelligence",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "10:30 AM - 11:45 AM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "8:00 AM - 8:50 AM"
+                }
+            ]
+        },
+        {
+            "course": "CPSC 4910 - Senior Computing Practicum",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "4:40 PM - 5:30 PM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "TTh",
+                    "time_slot": "12:00 PM - 1:15 PM"
+                }
+            ]
+        },
+        {
+            "course": "CPSC 3520 - Programming Systems",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "1:30 PM - 2:45 PM"
+                }
+            ]
+        },
+        {
+            "course": "CPSC 3220 - Introduction to Operating Systems",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "2:30 PM - 3:20 PM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "TTh",
+                    "time_slot": "1:30 PM - 2:45 PM"
+                }
+            ]
+        },
+        {
+            "course": "CPSC 3600 - Network Programming",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "9:05 AM - 9:55 AM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "TTh",
+                    "time_slot": "8:00 AM - 9:15 AM"
+                }
+            ]
+        },
+        {
+            "course": "CPSC 4030 - Introduction to Operating Systems",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "8:00 AM - 9:15 AM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "TTh",
+                    "time_slot": "8:00 AM - 9:15 AM"
+                }
+            ]
+        },
+        {
+            "course": "CPSC 4300 - Network Programming",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "10:10 AM - 11:00 AM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "11:15 AM - 12:05 PM"
+                }
+            ]
+        },
+        {
+            "course": "CPSC 3750 - Introduction to Operating Systems",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "1:30 PM - 2:45 PM"
+                }
+            ]
+        },
+        {
+            "course": "CPSC 4110 - Network Programming",
+            "sections": [
+                {
+                    "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "11:15 AM - 12:05 PM"
+                }
+            ]
+        }
+    ]
+}
