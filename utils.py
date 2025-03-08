@@ -27,10 +27,12 @@ def callAPI(student):
                   f"5. Ensure that your recommended scheduled is at least 12 credits, use the credit information for each class and aim for 16-18 while staying within the requirements."
                   f"6. If a course has prerequisites, only recommend it if I have already completed or am currently enrolled in those prerequisites."
                   f"7. Do not recommend any course that requires a prerequisite I have not taken or am not currently enrolled in."
+
                   )
 
 
     response = retrieveAndGenerate(input_text, kb_id)
+    print(response)
     answer = createList(response)
 
     if answer:
