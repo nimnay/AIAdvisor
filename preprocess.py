@@ -130,7 +130,7 @@ data = {
                             "path_name": "CPSC 1060/1070",
                             "courses": [
                                 {"course": "CPSC 1060 - Introduction to Programming", "credits": 4},
-                                {"course": "CPSC 1070 - Data Structures and Algorithms", "credits": 4}
+                                {"course": "CPSC 1070 - Programming Methodology", "credits": 4}
                             ]
                         }
                     ]
@@ -151,7 +151,7 @@ data = {
                             "path_name": "CPSC 1060/1070",
                             "courses": [
                                 {"course": "CPSC 1060 - Introduction to Programming", "credits": 4},
-                                {"course": "CPSC 1070 - Data Structures and Algorithms", "credits": 4}
+                                {"course": "CPSC 1070 - Programming Methodology", "credits": 4}
                             ]
                         }
                     ]
@@ -162,7 +162,9 @@ data = {
             {"course": "CPSC 2070 - Discrete Structures for Computing", "credits": 3, "semester": "First Semester - Sophomore Year", "prereq": ["MATH 1060"]},
             {"course": "CPSC 2120 - Algorithms and Data Structures", "credits": 4, "semester": "First Semester - Sophomore Year", "prereq": ["CPSC 2070"]},
             {"course": "CPSC 2150 - Software Development Foundations", "credits": 3, "semester": "Second Semester - Sophomore Year", "prereq": ["CPSC 2120"]},
-            {"course": "CPSC 2310 - Introduction to Computer Organization", "credits": 4, "semester": "Second Semester - Sophomore Year", "prereq": ["CPSC 2120"]}
+            {"course": "CPSC 2310 - Introduction to Computer Organization", "credits": 4, "semester": "Second Semester - Sophomore Year", "prereq": ["CPSC 2120"]},
+            {"course": "Natural Science Requirement ", "credits": 3,
+                 "semester": "First Semester - Freshman Year"},
         ],
         "junior_year": [
             {"course": "CPSC 3720 - Introduction to Software Engineering", "credits": 3, "semester": "First Semester - Junior Year", "prereq": ["CPSC 2120"]},
@@ -250,7 +252,7 @@ data = {
 }
 
 # Saving the data to a JSON file
-with open('course_structure1.json', 'w') as json_file:
+with open('course_structure2.json', 'w') as json_file:
     json.dump(data, json_file, indent=4)
 
 print("JSON file 'course_structure.json' has been created!")

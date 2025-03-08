@@ -300,7 +300,8 @@
                 "credits": 4,
                 "semester": "First Semester - Sophomore Year",
                 "prereq": [
-                    "CPSC 2070"
+                    "CPSC 1070/1080",
+                    "CPSC 1010/1020"
                 ]
             },
             {
@@ -308,7 +309,9 @@
                 "credits": 3,
                 "semester": "Second Semester - Sophomore Year",
                 "prereq": [
-                    "CPSC 2120"
+                    "CPSC 1070/1080",
+                    "CPSC 1010/1020"
+
                 ]
             },
             {
@@ -316,7 +319,8 @@
                 "credits": 4,
                 "semester": "Second Semester - Sophomore Year",
                 "prereq": [
-                    "CPSC 2120"
+                    "CPSC 1070/1080",
+                    "CPSC 1010/1020"
                 ]
             }
         ],
