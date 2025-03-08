@@ -17,20 +17,18 @@ def callAPI(student):
                   f"1. Recommend only those courses for which I meet the prerequisites.\n"
                   f"2. Ensure no recommended courses have overlapping class times.\n"
                   f"3. Align your recommendations with my current academic progress and graduation year.\n"
-                  f"4. Ensure the schedule is appropriate for my academic standing and does not include courses I’m not eligible to take.")
+                  f"4. Ensure the schedule is appropriate for my academic standing and does not include courses I’m not eligible to take."
+                  )
 
-    hard_coded_prompt = ("You are a college advisor helping students plan their class schedules based on their current "
-                         "progress. I will provide you with a list of courses I have already completed and a set of class offerings for the next semester. Your job is to create a schedule")
-
-    response = retrieveAndGenerate(input_text, kb_id, hard_coded_prompt)
-    print(response)
+    response = retrieveAndGenerate(input_text, kb_id)
+    createList(response)
 
     if response:
         return response
     else:
         print("No response received from AWS Bedrock.")
 
-def retrieveAndGenerate(input_text, kb_id, hard_coded_prompt):
+def retrieveAndGenerate(input_text, kb_id):
     session_id = None
     model_id = "anthropic.claude-3-sonnet-20240229-v1:0"
     region_id = "us-west-2"
