@@ -5,13 +5,18 @@
             "sections": [
                 {
                     "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "8:00 AM - 8:50 AM"
+                },
+                {
+                    "section_id": 2,
                     "day_type": "TTh",
                     "time_slot": "12:00 PM - 1:15 PM"
                 },
                 {
-                    "section_id": 2,
-                    "day_type": "MWF",
-                    "time_slot": "1:25 PM - 2:15 PM"
+                    "section_id": 3,
+                    "day_type": "TTh",
+                    "time_slot": "8:00 AM - 9:15 AM"
                 }
             ]
         },
@@ -20,8 +25,18 @@
             "sections": [
                 {
                     "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "3:35 PM - 4:25 PM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "8:00 AM - 8:50 AM"
+                },
+                {
+                    "section_id": 3,
                     "day_type": "TTh",
-                    "time_slot": "8:00 AM - 9:15 AM"
+                    "time_slot": "12:00 PM - 1:15 PM"
                 }
             ]
         },
@@ -31,12 +46,17 @@
                 {
                     "section_id": 1,
                     "day_type": "MWF",
-                    "time_slot": "12:20 PM - 1:10 PM"
+                    "time_slot": "9:05 AM - 9:55 AM"
                 },
                 {
                     "section_id": 2,
                     "day_type": "MWF",
-                    "time_slot": "11:15 AM - 12:05 PM"
+                    "time_slot": "10:10 AM - 11:00 AM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "MWF",
+                    "time_slot": "8:00 AM - 8:50 AM"
                 }
             ]
         },
@@ -45,13 +65,18 @@
             "sections": [
                 {
                     "section_id": 1,
-                    "day_type": "TTh",
-                    "time_slot": "10:30 AM - 11:45 AM"
+                    "day_type": "MWF",
+                    "time_slot": "1:25 PM - 2:15 PM"
                 },
                 {
                     "section_id": 2,
                     "day_type": "TTh",
-                    "time_slot": "1:30 PM - 2:45 PM"
+                    "time_slot": "10:30 AM - 11:45 AM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "TTh",
+                    "time_slot": "8:00 AM - 9:15 AM"
                 }
             ]
         },
@@ -60,6 +85,16 @@
             "sections": [
                 {
                     "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "3:35 PM - 4:25 PM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "TTh",
+                    "time_slot": "1:30 PM - 2:45 PM"
+                },
+                {
+                    "section_id": 3,
                     "day_type": "TTh",
                     "time_slot": "10:30 AM - 11:45 AM"
                 }
@@ -70,8 +105,18 @@
             "sections": [
                 {
                     "section_id": 1,
-                    "day_type": "TTh",
-                    "time_slot": "10:30 AM - 11:45 AM"
+                    "day_type": "MWF",
+                    "time_slot": "3:35 PM - 4:25 PM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "10:10 AM - 11:00 AM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "MWF",
+                    "time_slot": "4:40 PM - 5:30 PM"
                 }
             ]
         },
@@ -80,13 +125,18 @@
             "sections": [
                 {
                     "section_id": 1,
-                    "day_type": "TTh",
-                    "time_slot": "10:30 AM - 11:45 AM"
+                    "day_type": "MWF",
+                    "time_slot": "1:25 PM - 2:15 PM"
                 },
                 {
                     "section_id": 2,
+                    "day_type": "TTh",
+                    "time_slot": "1:30 PM - 2:45 PM"
+                },
+                {
+                    "section_id": 3,
                     "day_type": "MWF",
-                    "time_slot": "4:40 PM - 5:30 PM"
+                    "time_slot": "9:05 AM - 9:55 AM"
                 }
             ]
         },
@@ -95,13 +145,18 @@
             "sections": [
                 {
                     "section_id": 1,
-                    "day_type": "TTh",
-                    "time_slot": "8:00 AM - 9:15 AM"
+                    "day_type": "MWF",
+                    "time_slot": "8:00 AM - 8:50 AM"
                 },
                 {
                     "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "10:10 AM - 11:00 AM"
+                },
+                {
+                    "section_id": 3,
                     "day_type": "TTh",
-                    "time_slot": "10:30 AM - 11:45 AM"
+                    "time_slot": "1:30 PM - 2:45 PM"
                 }
             ]
         },
@@ -110,13 +165,18 @@
             "sections": [
                 {
                     "section_id": 1,
-                    "day_type": "TTh",
-                    "time_slot": "12:00 PM - 1:15 PM"
+                    "day_type": "MWF",
+                    "time_slot": "4:40 PM - 5:30 PM"
                 },
                 {
                     "section_id": 2,
                     "day_type": "TTh",
-                    "time_slot": "12:00 PM - 1:15 PM"
+                    "time_slot": "10:30 AM - 11:45 AM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "MWF",
+                    "time_slot": "12:20 PM - 1:10 PM"
                 }
             ]
         },
@@ -125,8 +185,18 @@
             "sections": [
                 {
                     "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "1:25 PM - 2:15 PM"
+                },
+                {
+                    "section_id": 2,
                     "day_type": "TTh",
-                    "time_slot": "1:30 PM - 2:45 PM"
+                    "time_slot": "10:30 AM - 11:45 AM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "TTh",
+                    "time_slot": "8:00 AM - 9:15 AM"
                 }
             ]
         },
@@ -136,7 +206,17 @@
                 {
                     "section_id": 1,
                     "day_type": "TTh",
-                    "time_slot": "1:30 PM - 2:45 PM"
+                    "time_slot": "10:30 AM - 11:45 AM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "8:00 AM - 8:50 AM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "MWF",
+                    "time_slot": "9:05 AM - 9:55 AM"
                 }
             ]
         },
@@ -146,12 +226,17 @@
                 {
                     "section_id": 1,
                     "day_type": "TTh",
-                    "time_slot": "8:00 AM - 9:15 AM"
+                    "time_slot": "1:30 PM - 2:45 PM"
                 },
                 {
                     "section_id": 2,
+                    "day_type": "TTh",
+                    "time_slot": "1:30 PM - 2:45 PM"
+                },
+                {
+                    "section_id": 3,
                     "day_type": "MWF",
-                    "time_slot": "1:25 PM - 2:15 PM"
+                    "time_slot": "12:20 PM - 1:10 PM"
                 }
             ]
         },
@@ -161,7 +246,17 @@
                 {
                     "section_id": 1,
                     "day_type": "TTh",
-                    "time_slot": "12:00 PM - 1:15 PM"
+                    "time_slot": "10:30 AM - 11:45 AM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "2:30 PM - 3:20 PM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "TTh",
+                    "time_slot": "1:30 PM - 2:45 PM"
                 }
             ]
         },
@@ -171,12 +266,17 @@
                 {
                     "section_id": 1,
                     "day_type": "MWF",
-                    "time_slot": "9:05 AM - 9:55 AM"
+                    "time_slot": "8:00 AM - 8:50 AM"
                 },
                 {
                     "section_id": 2,
                     "day_type": "MWF",
-                    "time_slot": "3:35 PM - 4:25 PM"
+                    "time_slot": "12:20 PM - 1:10 PM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "TTh",
+                    "time_slot": "10:30 AM - 11:45 AM"
                 }
             ]
         },
@@ -185,13 +285,18 @@
             "sections": [
                 {
                     "section_id": 1,
-                    "day_type": "TTh",
-                    "time_slot": "10:30 AM - 11:45 AM"
+                    "day_type": "MWF",
+                    "time_slot": "8:00 AM - 8:50 AM"
                 },
                 {
                     "section_id": 2,
-                    "day_type": "TTh",
-                    "time_slot": "10:30 AM - 11:45 AM"
+                    "day_type": "MWF",
+                    "time_slot": "3:35 PM - 4:25 PM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "MWF",
+                    "time_slot": "8:00 AM - 8:50 AM"
                 }
             ]
         },
@@ -201,12 +306,17 @@
                 {
                     "section_id": 1,
                     "day_type": "TTh",
-                    "time_slot": "1:30 PM - 2:45 PM"
+                    "time_slot": "10:30 AM - 11:45 AM"
                 },
                 {
                     "section_id": 2,
+                    "day_type": "TTh",
+                    "time_slot": "10:30 AM - 11:45 AM"
+                },
+                {
+                    "section_id": 3,
                     "day_type": "MWF",
-                    "time_slot": "1:25 PM - 2:15 PM"
+                    "time_slot": "12:20 PM - 1:10 PM"
                 }
             ]
         },
@@ -217,6 +327,16 @@
                     "section_id": 1,
                     "day_type": "MWF",
                     "time_slot": "11:15 AM - 12:05 PM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "10:10 AM - 11:00 AM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "TTh",
+                    "time_slot": "12:00 PM - 1:15 PM"
                 }
             ]
         },
@@ -226,12 +346,17 @@
                 {
                     "section_id": 1,
                     "day_type": "TTh",
-                    "time_slot": "12:00 PM - 1:15 PM"
+                    "time_slot": "10:30 AM - 11:45 AM"
                 },
                 {
                     "section_id": 2,
                     "day_type": "MWF",
-                    "time_slot": "9:05 AM - 9:55 AM"
+                    "time_slot": "4:40 PM - 5:30 PM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "TTh",
+                    "time_slot": "8:00 AM - 9:15 AM"
                 }
             ]
         },
@@ -240,8 +365,18 @@
             "sections": [
                 {
                     "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "1:25 PM - 2:15 PM"
+                },
+                {
+                    "section_id": 2,
                     "day_type": "TTh",
-                    "time_slot": "12:00 PM - 1:15 PM"
+                    "time_slot": "1:30 PM - 2:45 PM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "TTh",
+                    "time_slot": "10:30 AM - 11:45 AM"
                 }
             ]
         },
@@ -250,8 +385,18 @@
             "sections": [
                 {
                     "section_id": 1,
-                    "day_type": "TTh",
-                    "time_slot": "10:30 AM - 11:45 AM"
+                    "day_type": "MWF",
+                    "time_slot": "9:05 AM - 9:55 AM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "4:40 PM - 5:30 PM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "MWF",
+                    "time_slot": "8:00 AM - 8:50 AM"
                 }
             ]
         },
@@ -260,13 +405,18 @@
             "sections": [
                 {
                     "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "1:25 PM - 2:15 PM"
+                },
+                {
+                    "section_id": 2,
                     "day_type": "TTh",
                     "time_slot": "12:00 PM - 1:15 PM"
                 },
                 {
-                    "section_id": 2,
+                    "section_id": 3,
                     "day_type": "MWF",
-                    "time_slot": "4:40 PM - 5:30 PM"
+                    "time_slot": "12:20 PM - 1:10 PM"
                 }
             ]
         },
@@ -281,7 +431,12 @@
                 {
                     "section_id": 2,
                     "day_type": "MWF",
-                    "time_slot": "2:30 PM - 3:20 PM"
+                    "time_slot": "4:40 PM - 5:30 PM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "TTh",
+                    "time_slot": "12:00 PM - 1:15 PM"
                 }
             ]
         },
@@ -297,6 +452,11 @@
                     "section_id": 2,
                     "day_type": "TTh",
                     "time_slot": "1:30 PM - 2:45 PM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "TTh",
+                    "time_slot": "10:30 AM - 11:45 AM"
                 }
             ]
         },
@@ -306,7 +466,17 @@
                 {
                     "section_id": 1,
                     "day_type": "MWF",
-                    "time_slot": "2:30 PM - 3:20 PM"
+                    "time_slot": "3:35 PM - 4:25 PM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "12:20 PM - 1:10 PM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "MWF",
+                    "time_slot": "3:35 PM - 4:25 PM"
                 }
             ]
         },
@@ -315,8 +485,18 @@
             "sections": [
                 {
                     "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "12:00 PM - 1:15 PM"
+                },
+                {
+                    "section_id": 2,
                     "day_type": "MWF",
-                    "time_slot": "4:40 PM - 5:30 PM"
+                    "time_slot": "1:25 PM - 2:15 PM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "TTh",
+                    "time_slot": "10:30 AM - 11:45 AM"
                 }
             ]
         },
@@ -326,7 +506,17 @@
                 {
                     "section_id": 1,
                     "day_type": "TTh",
-                    "time_slot": "8:00 AM - 9:15 AM"
+                    "time_slot": "1:30 PM - 2:45 PM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "12:20 PM - 1:10 PM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "MWF",
+                    "time_slot": "12:20 PM - 1:10 PM"
                 }
             ]
         },
@@ -335,6 +525,16 @@
             "sections": [
                 {
                     "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "11:15 AM - 12:05 PM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "2:30 PM - 3:20 PM"
+                },
+                {
+                    "section_id": 3,
                     "day_type": "TTh",
                     "time_slot": "10:30 AM - 11:45 AM"
                 }
@@ -346,7 +546,17 @@
                 {
                     "section_id": 1,
                     "day_type": "MWF",
-                    "time_slot": "2:30 PM - 3:20 PM"
+                    "time_slot": "4:40 PM - 5:30 PM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "11:15 AM - 12:05 PM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "MWF",
+                    "time_slot": "1:25 PM - 2:15 PM"
                 }
             ]
         },
@@ -356,10 +566,15 @@
                 {
                     "section_id": 1,
                     "day_type": "MWF",
-                    "time_slot": "12:20 PM - 1:10 PM"
+                    "time_slot": "8:00 AM - 8:50 AM"
                 },
                 {
                     "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "11:15 AM - 12:05 PM"
+                },
+                {
+                    "section_id": 3,
                     "day_type": "MWF",
                     "time_slot": "9:05 AM - 9:55 AM"
                 }
@@ -370,8 +585,18 @@
             "sections": [
                 {
                     "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "8:00 AM - 9:15 AM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "TTh",
+                    "time_slot": "12:00 PM - 1:15 PM"
+                },
+                {
+                    "section_id": 3,
                     "day_type": "MWF",
-                    "time_slot": "4:40 PM - 5:30 PM"
+                    "time_slot": "1:25 PM - 2:15 PM"
                 }
             ]
         },
@@ -380,8 +605,18 @@
             "sections": [
                 {
                     "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "9:05 AM - 9:55 AM"
+                },
+                {
+                    "section_id": 2,
                     "day_type": "TTh",
-                    "time_slot": "10:30 AM - 11:45 AM"
+                    "time_slot": "1:30 PM - 2:45 PM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "MWF",
+                    "time_slot": "9:05 AM - 9:55 AM"
                 }
             ]
         },
@@ -390,8 +625,18 @@
             "sections": [
                 {
                     "section_id": 1,
-                    "day_type": "MWF",
-                    "time_slot": "8:00 AM - 8:50 AM"
+                    "day_type": "TTh",
+                    "time_slot": "1:30 PM - 2:45 PM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "TTh",
+                    "time_slot": "1:30 PM - 2:45 PM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "TTh",
+                    "time_slot": "10:30 AM - 11:45 AM"
                 }
             ]
         },
@@ -400,8 +645,18 @@
             "sections": [
                 {
                     "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "10:30 AM - 11:45 AM"
+                },
+                {
+                    "section_id": 2,
                     "day_type": "MWF",
-                    "time_slot": "10:10 AM - 11:00 AM"
+                    "time_slot": "8:00 AM - 8:50 AM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "MWF",
+                    "time_slot": "8:00 AM - 8:50 AM"
                 }
             ]
         },
@@ -410,8 +665,18 @@
             "sections": [
                 {
                     "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "12:00 PM - 1:15 PM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "TTh",
+                    "time_slot": "8:00 AM - 9:15 AM"
+                },
+                {
+                    "section_id": 3,
                     "day_type": "MWF",
-                    "time_slot": "2:30 PM - 3:20 PM"
+                    "time_slot": "10:10 AM - 11:00 AM"
                 }
             ]
         },
@@ -420,8 +685,18 @@
             "sections": [
                 {
                     "section_id": 1,
-                    "day_type": "MWF",
-                    "time_slot": "4:40 PM - 5:30 PM"
+                    "day_type": "TTh",
+                    "time_slot": "1:30 PM - 2:45 PM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "TTh",
+                    "time_slot": "1:30 PM - 2:45 PM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "TTh",
+                    "time_slot": "1:30 PM - 2:45 PM"
                 }
             ]
         },
@@ -431,12 +706,17 @@
                 {
                     "section_id": 1,
                     "day_type": "MWF",
-                    "time_slot": "2:30 PM - 3:20 PM"
+                    "time_slot": "4:40 PM - 5:30 PM"
                 },
                 {
                     "section_id": 2,
                     "day_type": "MWF",
-                    "time_slot": "2:30 PM - 3:20 PM"
+                    "time_slot": "1:25 PM - 2:15 PM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "MWF",
+                    "time_slot": "10:10 AM - 11:00 AM"
                 }
             ]
         },
@@ -445,13 +725,18 @@
             "sections": [
                 {
                     "section_id": 1,
-                    "day_type": "TTh",
-                    "time_slot": "8:00 AM - 9:15 AM"
+                    "day_type": "MWF",
+                    "time_slot": "1:25 PM - 2:15 PM"
                 },
                 {
                     "section_id": 2,
-                    "day_type": "TTh",
-                    "time_slot": "10:30 AM - 11:45 AM"
+                    "day_type": "MWF",
+                    "time_slot": "11:15 AM - 12:05 PM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "MWF",
+                    "time_slot": "3:35 PM - 4:25 PM"
                 }
             ]
         },
@@ -461,7 +746,17 @@
                 {
                     "section_id": 1,
                     "day_type": "MWF",
-                    "time_slot": "2:30 PM - 3:20 PM"
+                    "time_slot": "9:05 AM - 9:55 AM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "TTh",
+                    "time_slot": "1:30 PM - 2:45 PM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "MWF",
+                    "time_slot": "4:40 PM - 5:30 PM"
                 }
             ]
         },
@@ -476,7 +771,12 @@
                 {
                     "section_id": 2,
                     "day_type": "MWF",
-                    "time_slot": "8:00 AM - 8:50 AM"
+                    "time_slot": "12:20 PM - 1:10 PM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "MWF",
+                    "time_slot": "11:15 AM - 12:05 PM"
                 }
             ]
         },
@@ -492,6 +792,11 @@
                     "section_id": 2,
                     "day_type": "TTh",
                     "time_slot": "12:00 PM - 1:15 PM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "TTh",
+                    "time_slot": "1:30 PM - 2:45 PM"
                 }
             ]
         },
@@ -500,8 +805,18 @@
             "sections": [
                 {
                     "section_id": 1,
-                    "day_type": "TTh",
-                    "time_slot": "1:30 PM - 2:45 PM"
+                    "day_type": "MWF",
+                    "time_slot": "3:35 PM - 4:25 PM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "1:25 PM - 2:15 PM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "MWF",
+                    "time_slot": "8:00 AM - 8:50 AM"
                 }
             ]
         },
@@ -510,11 +825,16 @@
             "sections": [
                 {
                     "section_id": 1,
-                    "day_type": "MWF",
-                    "time_slot": "2:30 PM - 3:20 PM"
+                    "day_type": "TTh",
+                    "time_slot": "10:30 AM - 11:45 AM"
                 },
                 {
                     "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "1:25 PM - 2:15 PM"
+                },
+                {
+                    "section_id": 3,
                     "day_type": "TTh",
                     "time_slot": "1:30 PM - 2:45 PM"
                 }
@@ -526,12 +846,17 @@
                 {
                     "section_id": 1,
                     "day_type": "MWF",
-                    "time_slot": "9:05 AM - 9:55 AM"
+                    "time_slot": "3:35 PM - 4:25 PM"
                 },
                 {
                     "section_id": 2,
                     "day_type": "TTh",
-                    "time_slot": "8:00 AM - 9:15 AM"
+                    "time_slot": "10:30 AM - 11:45 AM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "TTh",
+                    "time_slot": "12:00 PM - 1:15 PM"
                 }
             ]
         },
@@ -541,12 +866,17 @@
                 {
                     "section_id": 1,
                     "day_type": "TTh",
-                    "time_slot": "8:00 AM - 9:15 AM"
+                    "time_slot": "12:00 PM - 1:15 PM"
                 },
                 {
                     "section_id": 2,
-                    "day_type": "TTh",
-                    "time_slot": "8:00 AM - 9:15 AM"
+                    "day_type": "MWF",
+                    "time_slot": "2:30 PM - 3:20 PM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "MWF",
+                    "time_slot": "4:40 PM - 5:30 PM"
                 }
             ]
         },
@@ -555,13 +885,18 @@
             "sections": [
                 {
                     "section_id": 1,
-                    "day_type": "MWF",
-                    "time_slot": "10:10 AM - 11:00 AM"
+                    "day_type": "TTh",
+                    "time_slot": "10:30 AM - 11:45 AM"
                 },
                 {
                     "section_id": 2,
+                    "day_type": "TTh",
+                    "time_slot": "12:00 PM - 1:15 PM"
+                },
+                {
+                    "section_id": 3,
                     "day_type": "MWF",
-                    "time_slot": "11:15 AM - 12:05 PM"
+                    "time_slot": "9:05 AM - 9:55 AM"
                 }
             ]
         },
@@ -570,6 +905,16 @@
             "sections": [
                 {
                     "section_id": 1,
+                    "day_type": "MWF",
+                    "time_slot": "9:05 AM - 9:55 AM"
+                },
+                {
+                    "section_id": 2,
+                    "day_type": "MWF",
+                    "time_slot": "11:15 AM - 12:05 PM"
+                },
+                {
+                    "section_id": 3,
                     "day_type": "TTh",
                     "time_slot": "1:30 PM - 2:45 PM"
                 }
@@ -580,8 +925,18 @@
             "sections": [
                 {
                     "section_id": 1,
+                    "day_type": "TTh",
+                    "time_slot": "8:00 AM - 9:15 AM"
+                },
+                {
+                    "section_id": 2,
                     "day_type": "MWF",
-                    "time_slot": "11:15 AM - 12:05 PM"
+                    "time_slot": "3:35 PM - 4:25 PM"
+                },
+                {
+                    "section_id": 3,
+                    "day_type": "MWF",
+                    "time_slot": "2:30 PM - 3:20 PM"
                 }
             ]
         }
