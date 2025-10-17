@@ -1,0 +1,14 @@
+# AI Advisor - Student Schedule Planner
+# Python Dependencies
+
+# Core AWS SDK
+boto3>=1.34.0
+botocore>=1.34.0
+
+# PDF Processing (optional, for catalog preprocessing)
+pdfplumber>=0.11.0
+
+# Development Dependencies
+black>=24.0.0
+pylint>=3.0.0
+mypy>=1.8.0

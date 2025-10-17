@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}Home - My Flask App{% endblock %}
+
+{% block content %}
+    <h1 class= "title">Welcome to My AI Advisor</h1>
+    <p>This is a platform that recommends that best semester schedule based off a students course load.</p>
+
+<form action="/" method="POST">
+    <label for="user_name">Enter Your Name:</label>
+    <input type="text" id="user_name" name="user_name" required>
+    <br><br>
+
+    <label for="user_classes">Enter Your Current or Previous Classes:</label>
+    <input type="text" id="user_classes" name="user_classes" required>
+    <br><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+{% if submitted_name and submitted_courses %}
+    <div class="output-box">
+        <h3>AI Advisor</h3>
+        <p><strong>Student Name:</strong> <span class="submitted-text">{{ submitted_name }}</span></p>
+        <p><strong>Current/Previous Classes:</strong> <span class="submitted-text">{{ submitted_courses }}</span></p>
+
+        {% if recommendation %}
+            <p><strong>Recommendation:</strong>
+            <p> {{  recommendation }}</p><br>
+        {% else %}
+            <p>AI Advisor could not find a solution.</p>
+        {% endif %}
+    </div>
+{% endif %}
+{% endblock %}
