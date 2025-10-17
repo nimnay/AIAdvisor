@@ -1,6 +1,30 @@
 # AI Advisor - Student Schedule Planner 🎓
 
-An intelligent course scheduling assistant powered by AWS Bedrock that helps students plan their academic schedules based on completed courses, prerequisites, and time constraints.
+**CUHackit Project 2025**
+
+An intelligent course scheduling assistant that helps students plan optimal academic schedules by analyzing their academic history, course prerequisites, and scheduling constraints.
+
+## 📖 About
+
+**AI Advisor** is a smart academic planning tool designed to eliminate the stress of course registration. Built for CUHackit 2025, this system leverages advanced AI to suggest personalized course schedules tailored to each student's unique academic journey.
+
+### How It Works
+
+The AI Advisor analyzes multiple factors to create your ideal schedule:
+
+- **📚 Previously Taken Classes** - Tracks your completed courses to understand your academic progress
+- **✅ Academic Requirements** - Validates prerequisites and co-requisites to ensure you're eligible for each course
+- **🤖 AI-Powered Intelligence** - Uses Claude 3 Sonnet (via AWS Bedrock) to process complex scheduling logic
+- **📊 Knowledge Base Integration** - Draws from a comprehensive database of course paths, degree requirements, and class timings
+- **⏰ Conflict Prevention** - Automatically ensures no time slot conflicts in your recommended schedule
+- **🎯 Credit Optimization** - Aims for 16-18 credit hours while respecting your constraints
+
+### Technology Stack
+
+- **AI Model**: Claude 3 Sonnet via AWS Bedrock
+- **Knowledge Base**: Custom-built course catalog with prerequisites and scheduling data
+- **Language**: Python 3.8+
+- **Cloud Platform**: AWS (Bedrock Agent Runtime)
 
 ## 🌟 Features
 
