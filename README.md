@@ -1,6 +1,6 @@
 # AI Advisor - Student Schedule Planner 🎓
 
-**CUHackit Project 2025**
+**🏆 CUHackit 2025 Winner - Best Use of AWS**
 
 An intelligent course scheduling assistant that helps students plan optimal academic schedules by analyzing their academic history, course prerequisites, and scheduling constraints.
 
